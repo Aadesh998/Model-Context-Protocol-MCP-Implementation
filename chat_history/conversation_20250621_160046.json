@@ -1,0 +1,44 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "is emp 1234 on leave"
+    },
+    {
+      "role": "assistant",
+      "content": "I'll need to check the leave information for employee ID 1234. Let me look that up for you.\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"employee_id\":\"1234\",\"leave_type\":\"Sick Leave\",\"leave_date\":\"2025-06-20\",\"approved\":true}"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, employee 1234 is scheduled to be on Sick Leave on June 20, 2025. The leave request has been approved.\n"
+    },
+    {
+      "role": "user",
+      "content": "give me the coordinates and weather update of the san francisco"
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you get the coordinates and weather update for San Francisco. Let me fetch that information for you.\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"long\":-122.4194,\"lat\":37.7749}"
+    },
+    {
+      "role": "assistant",
+      "content": "Now let me get the current weather information for San Francisco:\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"weather\":\"Sunny\",\"temperature\":21}"
+    },
+    {
+      "role": "assistant",
+      "content": "## San Francisco Information\n\n### Coordinates\n- Latitude: 37.7749\n- Longitude: -122.4194\n\n### Current Weather\n- Condition: Sunny\n- Temperature: 21°C\n\nThe weather in San Francisco is currently sunny with a temperature of 21 degrees Celsius. It's a nice day in the city!\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+MCP_LOG: 2025/06/21 15:28:26 main.go:19: MCP started.
+MCP_LOG: 2025/06/21 15:28:27 main.go:69: API error: POST "https://api.anthropic.com/v1/messages": 401 Unauthorized {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"}}
+MCP_LOG: 2025/06/21 15:29:46 main.go:19: MCP started.
+MCP_LOG: 2025/06/21 15:29:49 main.go:93: Tool requested: get_emp_leaves
+MCP_LOG: 2025/06/21 15:29:51 main.go:128: Failed to save conversation: open chat_history/conversation_20250621_152951.json: The system cannot find the path specified.
+MCP_LOG: 2025/06/21 15:40:16 main.go:22: MCP started.
+MCP_LOG: 2025/06/21 15:40:36 main.go:99: Tool requested: get_emp_leaves
+MCP_LOG: 2025/06/21 15:40:38 main.go:134: Failed to save conversation: open chat_history/conversation_20250621_154038.json: The system cannot find the path specified.
+MCP_LOG: 2025/06/21 15:49:53 main.go:26: MCP started.
+MCP_LOG: 2025/06/21 15:50:04 main.go:107: Tool requested: get_emp_leaves
+MCP_LOG: 2025/06/21 15:50:27 main.go:107: Tool requested: get_coordinates
+MCP_LOG: 2025/06/21 15:51:42 main.go:107: Tool requested: get_weather
+MCP_LOG: 2025/06/21 15:51:48 main.go:145: Conversation saved successfully.
+MCP_LOG: 2025/06/21 16:00:01 main.go:26: MCP started.
+MCP_LOG: 2025/06/21 16:00:13 main.go:105: Tool requested: get_emp_leaves
+MCP_LOG: 2025/06/21 16:00:37 main.go:105: Tool requested: get_coordinates
+MCP_LOG: 2025/06/21 16:00:39 main.go:105: Tool requested: get_weather
+MCP_LOG: 2025/06/21 16:00:46 main.go:143: Conversation saved successfully.
